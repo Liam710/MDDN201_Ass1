@@ -26,7 +26,7 @@ main{
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(100,100,100,0.5);
+	background-color: rgba(200,200,255,0.1);
 }
 section{
 	max-width: 60%;
@@ -37,7 +37,7 @@ section{
 }
 
 header{
-	background-color: #8f91a2;
+	background-color: #94b0da;
 	color: white; /* more readable on an orange background */
 	padding-top: 15px;
 	padding-left: 15px;
@@ -57,11 +57,13 @@ nav a, nav h3{
 	line-height: 60px;
 	margin-left: 1em;
 	margin-right: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 	text-decoration: none;
 }
 
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
+	background-color: #ffffff;
 }
 
 h1{
