@@ -12,11 +12,11 @@ body{
 	/* background-color: #dcedff; */
 	background-image: url('../img/bg.png'); /*image from: https://unsplash.com/photos/2FCVdvwqmGg*/
 	background-size: cover;
-	background-color: #3a5c43;
+	background-color: black;
 	color: #505a5b
 }
 
-.topsection{
+.header{
 	text-align: center;
 }
 
@@ -27,7 +27,7 @@ main{
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(200,200,255,0.1);
+	background-color: rgba(223, 238, 240,0.2);
 	box-shadow: 10px 10px 20px -2px;
 }
 section{
@@ -51,6 +51,8 @@ nav{
 	height: 60px;
 	padding-left: 50px;
 	background-color: #94b0da;
+	position: sticky;
+	top: 0;
 }
 
 nav a, nav h3{
@@ -76,6 +78,10 @@ h1{
 }
 
 h5{
+	font-weight: lighter;
+}
+
+p{
 	font-weight: lighter;
 }
 
